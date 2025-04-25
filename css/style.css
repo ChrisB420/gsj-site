@@ -162,3 +162,20 @@ footer {
     width: 100%;
   }
 }
+.logo-under-bags {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.zetu-logo {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.zetu-caption {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
