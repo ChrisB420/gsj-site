@@ -1,0 +1,134 @@
+<!-- index.html --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Samaritans for Jesus</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <img src="images/GSJ.png" alt="GSJ Logo" class="nav-logo" />
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#boutique">Boutique</a></li>
+        <li><a href="#osborne">Mission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>  <header>
+    <h1>Good Samaritans for Jesus</h1>
+    <p class="mission">God's love through Jesus to the people and culture transforming lives through his compassionate human services.</p>
+  </header>  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Street Children: Health, Food, Shelter, Clothing, Spiritual well-being</li>
+      <li>Psycho-social support, Education, Jobs</li>
+      <li>Urban Evangelism: Weekly Prayers</li>
+      <li>Prison Chaplaincy</li>
+      <li>Bible Study</li>
+      <li>Spiritual Counselling</li>
+      <li>Mentorship Programmes</li>
+    </ul>
+  </section>  <section id="boutique" class="boutique">
+    <h2>Ddizinzi Boutique</h2>
+    <img src="images/zetu.png" alt="Zetu Bags Logo" class="nav-logo">
+    <div class="gallery">
+      <img src="images/purse.jpg" alt="Purse">
+      <img src="images/purse2.jpg" alt="Purse 2">
+      <img src="images/backpack.jpg" alt="Backpack">
+      <img src="images/tote-bags.jpg" alt="Tote Bags">
+    </div>
+  </section>  <section id="osborne" class="osborne">
+    <h2>Osborne with Children</h2>
+    <img src="images/osborne.jpg" alt="Osborne with children" class="hero-img">
+  </section>  <footer>
+    <p>&copy; 2025 Good Samaritans for Jesus. All rights reserved.</p>
+  </footer>
+</body>
+</html><!-- contact.html --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Donate | Good Samaritans for Jesus</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <img src="images/GSJ.png" alt="GSJ Logo" class="nav-logo" />
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>  <section class="services">
+    <h2>Contact Us</h2>
+    <p>To support our mission or learn more, reach us via:</p>
+    <ul>
+      <li><strong>Email:</strong> goodsamaritansforjesus@gmail.com</li>
+      <li><strong>Phone:</strong> +254 700 000 000</li>
+      <li><strong>Location:</strong> Nairobi, Kenya</li>
+    </ul><h3>Donate</h3>
+<p>Your support helps us bring change to lives. To donate:</p>
+<ul>
+  <li><strong>Mpesa Paybill:</strong> 123456 - Account: GSJ</li>
+  <li><strong>Bank:</strong> Equity Bank - A/C: 0123456789</li>
+</ul>
+
+  </section>  <footer>
+    <p>&copy; 2025 Good Samaritans for Jesus. All rights reserved.</p>
+  </footer>
+</body>
+</html><!-- css/style.css -->body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+
+/* Navigation */ .navbar { background: #0a3d62; color: #fff; padding: 10px 20px; position: sticky; top: 0; z-index: 999; }
+
+.nav-container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+
+.nav-logo { max-width: 80px; }
+
+.nav-links { list-style: none; display: flex; gap: 15px; }
+
+.nav-links li a { color: white; text-decoration: none; font-weight: bold; }
+
+.nav-links li a:hover { text-decoration: underline; }
+
+/* Header */ header { background: #0a3d62; color: #fff; padding: 20px; text-align: center; }
+
+.logo { max-width: 150px; margin: 10px auto; display: block; }
+
+.mission { font-size: 1.1rem; max-width: 800px; margin: 10px auto; }
+
+/* Services Section */ .services { padding: 20px; background: #fff; margin: 20px; border-radius: 10px; }
+
+.services h2 { color: #0a3d62; }
+
+.services ul { list-style-type: square; padding-left: 20px; }
+
+/* Boutique Section */ .boutique { padding: 20px; background: #f1f1f1; margin: 20px; border-radius: 10px; }
+
+.boutique h2 { color: #0a3d62; }
+
+.boutique .gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; justify-content: center; }
+
+.boutique .gallery img { width: 150px; height: auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+/* Osborne Section */ .osborne { text-align: center; padding: 20px; background: #fff; margin: 20px; border-radius: 10px; }
+
+.osborne h2 { color: #0a3d62; margin-bottom: 10px; }
+
+.hero-img { max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+
+/* Footer */ footer { background: #0a3d62; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+
+/* Mobile Responsive */ @media (max-width: 768px) { .nav-container { flex-direction: column; align-items: flex-start; }
+
+.nav-links { flex-direction: column; gap: 10px; margin-top: 10px; }
+
+.boutique .gallery { flex-direction: column; align-items: center; }
+
+.services, .boutique, .osborne { margin: 10px; }
+
+.hero-img { width: 100%; } }
+
+
